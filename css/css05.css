@@ -1,0 +1,17 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+body {
+    background-color: rgb(164, 88, 235);
+}
+img {
+    padding: 50px;
+    margin-right: 10px;
+    width: 100px;
+}

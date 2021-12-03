@@ -13,19 +13,29 @@ div.select {
     top: 10px;
     right: 10px;
 }
+body {
+    height: 3000px;
+    width: 3000px;
+}
 #div2 img{
     width: 100px;
 }
 
 #zdrada {
     position: absolute;
+    right: 150px;
+    bottom: 150px;    
 }
 #malina {
     position: relative;
+    top: 500px;
 }
 #beelzebub {
     position: fixed;
+    left: 500px;
+    
 }
 #azazel {
     position: sticky;
+    top: 0;
 }

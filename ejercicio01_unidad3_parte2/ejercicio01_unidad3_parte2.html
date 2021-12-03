@@ -41,13 +41,23 @@
             <br>
             <table class="checker">
                 <tr>
-                    <td>CSS checker</td>
-                    <td><a href="https://jigsaw.w3.org/css-validator/#validate_by_upload"><img src="img/ejercicio01_imagen01.png" alt="csschecker" width="350"></a></td>
-                </tr>
-                <tr>
-                    <td>HTML checker</td>
-                    <td><a href="https://validator.w3.org/"><img src="img/ejercicio01_imagen02.png" alt="htmlchecker" width="350"></a></td>
+                    <td><a href="https://jigsaw.w3.org/css-validator/#validate_by_upload"><img src="img/css.png" alt="csschecker" width="75"></a></td>
+                    <td><a href="https://validator.w3.org/"><img src="img/html.png" alt="htmlchecker" width="75"></a></td>
                 </tr>
             </table>
+            <div class="select">
+                <br>
+                <label for="ejercicios">Elegir ejercicio</label><br>
+                <select name="ejercicios" id="ejercicios" onchange="location = this.value;">
+                    <option value="none" disabled selected>-seleciona-</option>
+                    <option value="../ejercicio02_unidad3_parte2/ejercicio02_unidad3_parte2.html">Ejercicio2</option>
+                    <option value="../ejercicio03_unidad3_parte2/ejercicio03_unidad3_parte2.html">Ejercicio3</option>
+                    <option value="../ejercicio04_unidad3_parte2/ejercicio04_unidad3_parte2.html">Ejercicio4</option>
+                    <option value="../ejercicio05_unidad3_parte2/ejercicio05_unidad3_parte2.html">Ejercicio5</option>
+                    <option value="../ejercicio06_unidad3_parte2/ejercicio06_unidad3_parte2.html">Ejercicio6</option>
+                    <option value="../ejercicio07_unidad3_parte2/ejercicio07_unidad3_parte2.html">Ejercicio7</option>
+                </select>
+                <button onclick="window.location.href = 'css/css01.css';">CSS</button>
+                </div>
         </body>
     </html>

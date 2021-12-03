@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>ejercicio03</title>
+            <meta charset="UTF-8">
+            <link href="css/css03.css" rel="stylesheet">
+        </head>
+        <body>
+            <div class="ej">
+                <p><a href="https://www.youtube.com/watch?v=k8ozVkIkr-g" id="evangelion" 
+                    name="evangelion" target="_blank" title="Evangelion Opening">A Cruel Angel Thesis</a></p>
+
+                <p><a href="https://www.youtube.com/watch?v=B6LQBD7H15c" id="spongebob" 
+                    name="spongebob" target="_blank" title="Spongebob theme song">A Cruel Sponge Bob Thesis</a></p>
+
+                <p><a href="https://twitter.com/LOLiTOFDEZ/status/1455320281665445895?s=20" id="lolitorap" 
+                    name="lolitorap" target="_blank" title="Rap de LOLiTOFDEZ">A Cruel LOLiTOFDEZ Thesis</a></p>
+
+                <p><a href="https://mito.io/collections/Zigor%C3%97Willyrex" id="nftdemierda" 
+                    name="nftdemierda" target="_blank" title="NFT de Willyrex de mierda">A Cruel BasuraNFT Thesis</a></p>
+                <!-- otros valores para target serían "_self" "_top" "_parent" "framename" 
+                pero no he conseguido ver cambios apreciables desde Google Chrome -->
+            </div>
+            <div>
+                <br>
+                <table class="checker">
+                    <tr>
+                        <td><a href="https://jigsaw.w3.org/css-validator/#validate_by_upload"><img src="img/css.png" alt="csschecker" width="75"></a></td>
+                        <td><a href="https://validator.w3.org/"><img src="img/html.png" alt="htmlchecker" width="75"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="select">
+                <br>
+                <label for="ejercicios">Elegir ejercicio</label><br>
+                <select name="ejercicios" id="ejercicios" onchange="location = this.value;">
+                    <option value="none" disabled selected>-seleciona-</option>
+                    <option value="../ejercicio01_unidad3_parte2/ejercicio01_unidad3_parte2.html">Ejercicio1</option>
+                    <option value="../ejercicio02_unidad3_parte2/ejercicio02_unidad3_parte2.html">Ejercicio2</option>
+                    <option value="../ejercicio04_unidad3_parte2/ejercicio04_unidad3_parte2.html">Ejercicio4</option>
+                    <option value="../ejercicio05_unidad3_parte2/ejercicio05_unidad3_parte2.html">Ejercicio5</option>
+                    <option value="../ejercicio06_unidad3_parte2/ejercicio06_unidad3_parte2.html">Ejercicio6</option>
+                    <option value="../ejercicio07_unidad3_parte2/ejercicio07_unidad3_parte2.html">Ejercicio7</option>
+                </select>
+                <button onclick="window.location.href = 'css/css03.css';">CSS</button>
+                </div>
+        </body>
+    </html>

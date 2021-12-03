@@ -18,6 +18,17 @@
     text-decoration: underline;
     background-color: #FF704D;
 }
-.checker td, .checker th{
-    border: 1.1px solid black;
+div.select {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+table.checker { 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }

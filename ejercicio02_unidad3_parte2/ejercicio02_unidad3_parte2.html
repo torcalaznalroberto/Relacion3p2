@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>ejercicio02</title>
+            <meta charset="UTF-8">
+            <link href="css/css02.css" rel="stylesheet">
+        </head>
+        <body>
+            <table class="ej">
+                <caption>CSS Tables</caption>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Berglunds snabbköp</td>
+                        <td>Christina Berglund</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>México</td>
+                    </tr>
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table class="checker">
+                <tr>
+                    <td><a href="https://jigsaw.w3.org/css-validator/#validate_by_upload"><img src="img/css.png" alt="csschecker" width="75"></a></td>
+                    <td><a href="https://validator.w3.org/"><img src="img/html.png" alt="htmlchecker" width="75"></a></td>
+                </tr>
+            </table>
+            <div class="select">
+                <br>
+                <label for="ejercicios">Elegir ejercicio</label><br>
+                <select name="ejercicios" id="ejercicios" onchange="location = this.value;">
+                    <option value="none" disabled selected>-seleciona-</option>
+                    <option value="../ejercicio01_unidad3_parte2/ejercicio01_unidad3_parte2.html">Ejercicio1</option>
+                    <option value="../ejercicio03_unidad3_parte2/ejercicio03_unidad3_parte2.html">Ejercicio3</option>
+                    <option value="../ejercicio04_unidad3_parte2/ejercicio04_unidad3_parte2.html">Ejercicio4</option>
+                    <option value="../ejercicio05_unidad3_parte2/ejercicio05_unidad3_parte2.html">Ejercicio5</option>
+                    <option value="../ejercicio06_unidad3_parte2/ejercicio06_unidad3_parte2.html">Ejercicio6</option>
+                    <option value="../ejercicio07_unidad3_parte2/ejercicio07_unidad3_parte2.html">Ejercicio7</option>
+                </select>
+                <button onclick="window.location.href = 'css/css02.css';">CSS</button>
+                </div>
+        </body>
+    </html>

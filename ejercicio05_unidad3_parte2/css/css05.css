@@ -1,0 +1,34 @@
+.ej h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+body {
+    background-color: rgb(164, 88, 235);
+}
+.ej img {
+    background-color: white;
+    padding: 50px;
+    margin-right: 10px;
+    width: 100px;
+}
+/* Aquí simplemente añadí color para porder apreciar que sí, el padding puede aportar un color a la imagen */
+
+div.select {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+table.checker { 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

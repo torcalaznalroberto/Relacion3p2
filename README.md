@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="doc/title.gif" alt="Imagen encabezado" height="300">
+  <img src="doc/title.jpeg" alt="Imagen encabezado" width="900">
 </p>
 
 # Relación 3 parte 2 - Lenguaje de Marcas

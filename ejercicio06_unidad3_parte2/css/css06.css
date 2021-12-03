@@ -1,10 +1,110 @@
-
-div.select {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: whitesmoke;
+* {
     color: black;
-    padding: 10px;
-    position: fixed;
-    top: 10px;
-    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4;
+
+}
+
+
+/* CABECERA */
+#cabecera {
+    padding: 1em;
+}
+#cabecera h1 {
+    background: url("../img/logo.gif");
+    
+}
+
+/* MENU */
+#menu {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px #004C99;
+    background-image: url("../img/fondo_menu.gif");
+    margin-right: 1em;
+    display: inline;
+}
+#menu a:link {
+    color: white;
+    font-size: 1.3em;
+}
+
+/* PIE */
+#pie {
+    padding-top: 0.5em ;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    border-top: 1px #C5C5C5;
+    border-bottom: 1px #C5C5C5;
+    background-color: #F8F8F8
+}
+
+
+/* ARTICULO */
+.articulo {
+    margin: 1em;
+}
+.articulo img {
+    margin: 0.5em;
+}
+.articulo h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+}
+.articulo p {
+    margin-top: 0.3em
+}
+.articulo a:link {
+    color: #CC6600
+}
+
+
+/* PRINCIPAL */
+#principal {
+    padding: 0.5em;
+}
+
+
+/* SECUNDARIO */
+#secundario {
+    border: 1px #CC6600;
+    padding: 0.5em;
+}
+#secundario h2 {
+    background-color: #DB905C;
+    padding: 0.2em;
+}
+
+
+/* LATERAL */
+#lateral * {
+    font-size: 0.9em;
+}
+#lateral .fecha {
+    width: 100%;
+    color: #999;
+}
+/* NOTICIAS */
+#lateral #noticias {
+    border: 1px #C5C5C5;
+    padding: 0.5em;
+    background-color: #F8F8F8
+}
+#lateral #noticias h3 {
+    color: #003366;
+}
+/* PUBLICIDAD */
+#lateral #publicidad {
+    margin-top: 1em;
+    border-style: dashed;
+    padding: 0.5em;
+    border: 1px #CC6600 ;
+    background-color: #FFF6CD;
+    color: #555
+}
+#lateral #publicidad a:link {
+    color: #CC6600
 }

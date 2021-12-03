@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="doc/title.jpeg" alt="Imagen encabezado" width="900">
+  <img src="doc/title.jpeg" alt="Imagen encabezado" width="800">
 </p>
 
 # Relación 3 parte 2 - Lenguaje de Marcas
-## Contenido
+## Contenidos
 
->  **Carpetas con ejercicios html** de los ejercicios 1-8
+>  **Carpetas con ejercicios html** de los ejercicios 1-7
 >  
 >  >  **Carpeta css con .css del ejercicio**
 >  >  
